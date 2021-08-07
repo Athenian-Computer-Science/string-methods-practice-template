@@ -7,6 +7,10 @@
 # Use this space to practice the methods in this lesson
 # Create a string with at least 3 words
 # Use title, upper and lower on it to compare the results
+
+
+
+
 # Create a variable that contains whitespace at the start and end
 # Then use the different stripping methods to remove it
 
