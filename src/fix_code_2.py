@@ -8,7 +8,6 @@
 toppings = "What is your favorite pizza?"
 # remove whitespace from toppings
 toppings =
-index = toppings_find(space)    # Modify this to check toppings to see if it contains a space
+index = toppings_find(space)    # Check to see if toppings has a space
 print(index)
-# Note: if a character is not found, the method will return -1 rather than the position of the space
-
+# Note: if a character isn't found, find() returns -1

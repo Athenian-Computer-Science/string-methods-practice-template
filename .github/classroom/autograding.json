@@ -1,41 +1,31 @@
 {
   "tests": [
     {
-      "name": "Fix Code 2",
+      "name": "test1",
+      "setup": "",
+      "run": "python3 src/fix_code_1.py",
+      "input": " purple ",
+      "output": "Purple is my favorite color too!",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "test2",
       "setup": "",
       "run": "python3 src/fix_code_2.py",
-      "input": "blue\r\nberry",
-      "output": "The string blue\rberry has 10 letters.",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 5
-    },
-    {
-      "name": "Write code 2",
-      "setup": "",
-      "run": "python3 src/write_code_2.py",
-      "input": "green\r\nyellow\r\npurple",
-      "output": "green\r yellow\r purple",
+      "input": " artichoke and mushroom ",
+      "output": "9",
       "comparison": "included",
       "timeout": 10,
       "points": null
     },
-    {
-      "name": "Fix code 3",
+        {
+      "name": "test3",
       "setup": "",
-      "run": "python3 src/fix_code_3.py",
-      "input": "",
-      "output": "Wilderness\r\nLength: 10",
-      "comparison": "included",
-      "timeout": 10,
-      "points": null
-    },
-    {
-      "name": "Write code 3",
-      "setup": "",
-      "run": "python3 src/write_code_3.py",
-      "input": "",
-      "output": "agilistic",
+      "run": "python3 src/fix_code_2.py",
+      "input": " cheese ",
+      "output": "-1",
       "comparison": "included",
       "timeout": 10,
       "points": null

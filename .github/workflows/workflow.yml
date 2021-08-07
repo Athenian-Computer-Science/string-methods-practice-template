@@ -6,10 +6,7 @@ on:
     paths:
       - 'src/fix_code_1.py'
       - 'src/fix_code_2.py'
-      - 'src/fix_code_3.py'
-      - 'src/write_code_1.py'
-      - 'src/write_code_2.py'
-      - 'src/write_code_3.py'
+
 jobs:
 
   Style_test:
@@ -30,10 +27,6 @@ jobs:
       run: |
         flake8 src/fix_code_1.py >> .github/ISSUE_TEMPLATE/style-issues.md
         flake8 src/fix_code_2.py >> .github/ISSUE_TEMPLATE/style-issues.md
-        flake8 src/fix_code_3.py >> .github/ISSUE_TEMPLATE/style-issues.md
-        flake8 src/write_code_1.py >> .github/ISSUE_TEMPLATE/style-issues.md
-        flake8 src/write_code_2.py >> .github/ISSUE_TEMPLATE/style-issues.md
-        flake8 src/write_code_3.py >> .github/ISSUE_TEMPLATE/style-issues.md
 
     - name: Style fail message
       if: steps.style.outcome == 'failure'
