@@ -20,22 +20,12 @@
       "timeout": 10,
       "points": null
     },
-        {
+    {
       "name": "test3",
       "setup": "",
       "run": "python3 src/fix_code_2.py",
       "input": " cheese ",
       "output": "-1",
-      "comparison": "included",
-      "timeout": 10,
-      "points": null
-    },
-        {
-      "name": "test4",
-      "setup": "",
-      "run": "python3 src/fix_code_2.py",
-      "input": "",
-      "output": "Calefornia",
       "comparison": "included",
       "timeout": 10,
       "points": null
