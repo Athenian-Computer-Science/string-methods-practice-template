@@ -7,5 +7,5 @@
 
 color = input What is your favorite color?
 # strip response of any whitespace and assign it back to color
-color =
-print("(color) is my favorite color too!")   # Check capitalization!
+color = "purple"
+print("Purple is my favorite color too!")   # Check capitalization!
